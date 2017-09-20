@@ -1,70 +1,416 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link href="assets/font-awesome-4.7.0/css/font-awesome.css/" rel="stylesheet">
-    <link href="assets/font-awesome-4.7.0/css/font-awesome.min.css"
-    <link href="CSS/normalize.css" rel="stylesheet">
-    <link href="CSS/styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500" rel="stylesheet">
-    <title></title>
-</head>
-<body>
-        <section class="sidebar">
-            <div class="sidebar-top">
-                <img src="assets/Triumph.jpg" class="triumph-photo">
-                <p>Triumph Scrambler  <i class="fa fa-angle-down" aria-hidden="true"></i></p>  
-            </div>
-            <div class="sidebar-2">
-                <p class="nav-title">Main</p>
-                <p><i class="fa fa-home" aria-hidden="true"></i>Home</p>
-                <p>Gallery</p>
-                <p>Triumph</p>
-                <p>Japanese</p>
-                <p>Deus</p>
-            </div>
-            <div class="sidebar-3">
-                <p class="nav-title">Featured Builders</p>
-            </div>
+  <head>
+    <meta charset="utf-8">
+    <title>Static Comp 3</title>
+    <link href="assets/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet-normalize" href=".normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+
+    <header>
+    </header>
+
+    <main class=''>
+
+      <!-- slide navigation  -->
+      <section class='nav'>
+        <section class='nav-pic-container'>
+          <section class='profile-pic-container'>
+            <img src="assets/Triumph.jpg" class='profile-pic'>
+          </section>
+          <p class='profile-name'>Triumph Scrambler <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+          <hr class='nav-hr'>
         </section>
-        <main>
-            <div class="top-bar">
-                <i class="fa fa-bars fa-2x"></i>
-                <input type="text" class="search-input">
+
+        <section class='nav-main-container nav-container'>
+          <p class='nav-headers'>Main</p>
+          <a class='nav-link' href="#"><i class="fa fa-home nav-icon" aria-hidden="true"></i><p class='side-link'>HOME</p></a>
+          <a class='nav-link' href="#"><i class="fa fa-camera-retro" aria-hidden="true"></i><p class='side-link'>Gallery</p></a>
+          <a class='nav-link' href="#"><i class="fa fa-motorcycle" aria-hidden="true"></i><p class='side-link'>Featured</p></a>
+          <a class='nav-link' href="#"><i class="fa fa-wrench" aria-hidden="true"></i><p class='side-link'>Customize</p></a>
+          <a class='nav-link' href="#"><i class="fa fa-share" aria-hidden="true"></i><p class='side-link'>Share</p></a>
+          <hr class='nav-hr'>
+        </section>
+
+        <section class='nav-admin-container nav-container'>
+          <p class='nav-headers'>Admin</p>
+          <a class='nav-link' href="#"><i class="fa fa-user-circle-o nav-icon" aria-hidden="true"></i><p class='side-link'>ACCOUNT</p></a>
+          <a class='nav-link' href="#"><i class="fa fa-bookmark nav-icon" aria-hidden="true"></i><p class='side-link'>BOOKMARKS</p></a>
+          <a class='nav-link' href="#"><i class="fa fa-picture-o nav-icon" aria-hidden="true"></i><p class='side-link'>PHOTOS</p></a>
+          <a class='nav-link' href="#"><i class="fa fa-cog nav-icon" aria-hidden="true"></i><p class='side-link'>SETTINGS</p></a>
+          <a class='nav-link' href="#"><i class="fa fa-users nav-icon" aria-hidden="true"></i><p class='side-link'>SOCIAL</p></a>
+          <hr class='nav-hr'>
+        </section>
+
+        <section class='nav-categories-container nav-container'>
+          <p class='nav-headers'>Categories</p>
+          <a class='nav-link' href="#"><i class="fa fa-check-square" aria-hidden="true"></i><p class='side-link'>Triumph</p></a>
+          <a class='nav-link' href="#"><i class="fa fa-square blue-square" aria-hidden="true"></i><p class='side-link'>Ducati</p></a>
+          <a class='nav-link' href="#"><i class="fa fa-square red-square" aria-hidden="true"></i><p class='side-link'>BMW</p></a>
+          <a class='nav-link' href="#"><i class="fa fa-square green-square" aria-hidden="true"></i><p class='side-link'>Harley</p></a>
+          <section class='bottom-space'></section>
+        </section>
+      </section>
+
+      <!--  main site container -->
+      <section class='main-site'>
+
+        <section class='admin-header'>
+          <section class='admin-sec admin-sec-1 ad-menu'>
+            <button type='button' class='menu-slider-button menu-slider-graphic'><i class="fa fa-outdent fa-3x" aria-hidden="true"></i></button>
+          </section>
+          <section class='admin-sec admin-sec-2'>
+            <button type='button' class='search-icon'><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+            <input class='search-field' type='text' placeholder="  Search for a motorcycle or builder">
+          </section>
+          <section class='admin-sec admin-sec-1 admin-right'>
+            <button type='button' class='add-member'><i class="fa fa-user fa-3x" aria-hidden="true"></i></button>
+          </section>
+          <section class='admin-sec admin-sec-1 admin-right'>
+            <button type='button' class='calender-button'><i class="fa fa-calendar fa-3x" aria-hidden="true"></i></button>
+          </section>
+          <section class='admin-sec admin-sec-1 admin-right'>
+            <button type='button' class='box-button'><i class="fa fa-th fa-3x" aria-hidden="true"></i></button>
+          </section>
+
+        </section>
+
+          <section class='service-section'>
+            <p class='job-title'>British Customs Dirtbike</p>
+            <i class="fa fa-map-marker map-marker location-icon" aria-hidden="true"></i>
+            <p class='city'>Gardena, CA</p>
+            <p class='preview'>Preview this post</p>
+          </section>
+
+
+<!-- <!header buttons> -->
+          <section class='service-nav-sec'>
+            <div class='header-button-container'>
+                <button  class='open-button'>
+                <i class="fa fa-circle green-dot" aria-hidden="true"></i>Available</button>
             </div>
-            <div class="title">
-                <h1>British Customs Dirtbike</h1>
+            <div class='button-border'>
+              <button class='side-button s1'><i class="fa fa-bookmark" aria-hidden="true"></i></button>
             </div>
-            <div class="nav-links">
-                <ul>
-                    <li>Summary</li>
-                    <li>Build</li>
-                    <li>Hours</li>
-                    <li>Original</li>
-                    <li>Parts</li>
+            <div class='button-border'>
+              <button class='side-button s2'><i class="fa fa-pencil" aria-hidden="true"></i></button>
             </div>
-            <section class="graphs-description">
-                <div class="graphs">
-                </div>
-                <div class="link-container">
-                    <div class="description">
-                    <h2>Description</h2>
-                    </div>
-                    <div class="bottom-right-container">
-                        <div class="social-media-buttons">
-                        Facebook
-                        Twitter
-                        LinkedIn
-                        </div>
-                        <div class="job-link">
-                        </div>
-                        <div class="widget">
-                        </div>
-                        <div class="email">
-                            <i class="fa fa-camera-retro fa-2x"></i>
-                        </div>
-                    </div>
-                </div>
+            <div class='button-border'>
+              <button class='side-button s3'><i class="fa fa-trash" aria-hidden="true"></i></button>
+            </div>
+          </section>
+        <!-- </section> -->
+
+        <section class='nav-header'>
+          <p class='nav-title'>SUMMARY</p>
+          <p class='nav-title'>GET A QUOTE</p>
+          <p class='nav-title'>OTHER BUILDS</p>
+          <p class='nav-title'>INTERVIEWS</p>
+          <p class='nav-title'>ACTIVITY</p>
+          <p class='nav-title'>SAVE</p>
+          <p class='nav-title'>NOTIFICATIONS</p>
+        </section>
+
+        <section class='circle-graph-sec'>
+            <section class='circle-graph-chart'>
+                <div class="circ-1 circ-graph"><p class="count count-1 circle-counter">11</p><br><p class='circle-title circ-title-1'>Awards</P></div>
+                <div class="circ-2 circ-graph"><p class="count count-2 circle-counter">9,702</p><br><p class='circle-title circ-title-2'>Views</P></div>
+                <div class="circ-3 circ-graph"><p class="count count-3 circle-counter">4.7</p><br><p class='circle-title circ-title-3'>Rating</P></div>
             </section>
-        </main>
-</body>
+            <section class='views-button-container'>
+              <button class='views-button' type='button'>TOTALS</button>
+            </section>
+          </section>
+
+        <section class='bar-graph-sec'>
+            <section class='bar-graph-container'>
+
+              <section class='bar-graph-numbers'>
+                <p class='graph-numbers count bar-counter'>1,000</p>
+                <p class='graph-numbers count bar-counter'>800</p>
+                <p class='graph-numbers count bar-counter'>600</p>
+                <p class='graph-numbers count bar-counter'>300</p>
+                <p class='graph-numbers count bar-counter'>150</p>
+                <p class='graph-numbers count bar-counter'>0</p>
+              </section>
+
+              <section class='bargraph-chart-container'>
+
+                <section class='bars-container'>
+
+                  <div class='bar-base bb1'>
+                    <div class='bar-color bar1'>
+                    </div>
+                  </div>
+
+                  <div class='bar-base'>
+                    <div class='bar-color bar2'>
+                    </div>
+                  </div>
+
+                  <div class='bar-base'>
+                    <div class='bar-color bar3'>
+                    </div>
+                  </div>
+
+                  <div class='bar-base'>
+                    <div class='bar-color bar4'>
+                    </div>
+                  </div>
+
+                  <div class='bar-base'>
+                    <div class='bar-color bar5'>
+                    </div>
+                  </div>
+
+                  <div class='bar-base'>
+                    <div class='bar-color bar6'>
+                    </div>
+                  </div>
+
+                  <div class='bar-base'>
+                    <div class='bar-color bar7'>
+                    </div>
+                  </div>
+
+                  <div class='bar-base'>
+                    <div class='bar-color bar8'>
+                    </div>
+                  </div>
+
+                  <div class='bar-base'>
+                    <div class='bar-color bar9'>
+                    </div>
+                  </div>
+
+                  <div class='bar-base'>
+                    <div class='bar-color bar10'>
+                    </div>
+                  </div>
+
+                  <div class='bar-base'>
+                    <div class='bar-color bar11'>
+                    </div>
+                  </div>
+
+                  <div class='bar-base'>
+                    <div class='bar-color bar12'>
+                    </div>
+                  </div>
+
+                  <div class='bar-base'>
+                    <div class='bar-color bar13'>
+                    </div>
+                  </div>
+
+                  <div class='bar-base bb14'>
+                    <div class='bar-color bar14'>
+                    </div>
+                  </div>
+
+                </section>
+              <section>
+            </section>
+
+            <section class='days-container'>
+
+              <div class='day-container dc1'>
+                <p class='day'>S</p>
+              </div>
+
+              <div class='day-container'>
+                <p class='day'>M</p>
+              </div>
+
+              <div class='day-container'>
+                <p class='day'>T</p>
+              </div>
+
+              <div class='day-container'>
+                <p class='day'>W</p>
+              </div>
+
+              <div class='day-container'>
+                <p class='day'>T</p>
+              </div>
+
+              <div class='day-container'>
+                <p class='day'>F</p>
+              </div>
+
+              <div class='day-container'>
+                <p class='day'>S</p>
+              </div>
+
+              <div class='day-container'>
+                <p class='day'>S</p>
+              </div>
+
+              <div class='day-container'>
+                <p class='day'>M</p>
+              </div>
+
+              <div class='day-container'>
+                <p class='day'>T</p>
+              </div>
+
+              <div class='day-container'>
+                <p class='day'>W</p>
+              </div>
+
+              <div class='day-container'>
+                <p class='day'>T</p>
+              </div>
+
+              <div class='day-container'>
+                <p class='day'>F</p>
+              </div>
+
+              <div class='day-container dc14'>
+                <p class='day'>S</p>
+              </div>
+
+            </section>
+          </section>
+        </section>
+          <section class='applicants-button-container'>
+            <button class='applicants-button' type='button'>VIEWS/DAY</button>
+          </section>
+        </section>
+
+        <section class='divider'>
+          <div class='divider-1'>
+            <hr class='divider-hr-1'>
+          </div>
+          <div class='divider-2'>
+            <button class='expand-button' type='button'><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></button>
+          </div>
+          <div class='divider-3'>
+            <hr class='divider-hr-2'>
+          </div>
+        </section>
+
+        <section class='lower-body-container'>
+          <section class='job-desription-container'>
+            <section class='job-description-page'>
+              <section class='job-description-header'>
+                <p class='header-title'>Builder Profile</p>
+                <p class='edit-button'><i class="fa fa-phone edit-icon" aria-hidden="true"></i>Contact</P>
+              </section>
+              <section class='job-description-body'>
+
+                <div class='title-box'>
+                  <p class='description-title'>Name</P>
+                </div>
+                <div class='body-box'>
+                  <p class='description-body'><img class='hiring-lead' src='assets/woolie.jpg'/>Michael Woolaway</P>
+                </div>
+                <hr class='description-hr'>
+
+                <div class='title-box'>
+                  <p class='description-title'>LOCATION</P>
+                </div>
+                <div class='body-box'>
+                  <p class='description-body'>Venice Beach, CA</P>
+                </div>
+                <hr class='description-hr'>
+
+                <div class='title-box'>
+                  <p class='description-title'>Title</P>
+                </div>
+                <div class='body-box'>
+                  <p class='description-body'>Master Mechanic</P>
+                </div>
+                <hr class='description-hr'>
+
+                <div class='title-box'>
+                  <p class='description-title'>EXPERIENCE</P>
+                </div>
+                <div class='body-box'>
+                  <p class='description-body'>20 years</P>
+                </div>
+                <hr class='description-hr'>
+
+                <div class='title-box'>
+                  <p class='description-title'>Current Project</P>
+                </div>
+                <div class='body-box'>
+                  <p class='description-body'>AgoTT</P>
+                </div>
+                <hr class='description-hr'>
+
+                <div class='title-box'>
+                  <p class='description-title description'>DESCRIPTION</P>
+                </div>
+                <div class='body-box'>
+                  <p class='description-body'>AgoTT is a MV Augusta Brutale completely redesigned from the frame up to be a full-blown racing machine. Many of the parts are sourced from sponsors and other parts are handmade by Michael Woolaway in Venice Beach at Deus Emporium</P>
+                </div>
+                <hr class='description-hr'>
+
+                <div class='title-box'>
+                  <p class='description-title'>Availability</P>
+                </div>
+                <div class='body-box'>
+                  <p class='description-body'>March 2018</p>
+                </div>
+                <hr class='description-hr'>
+
+                <div class='title-box'>
+                  <p class='description-title'>Minimum Commision</P>
+                </div>
+                <div class='body-box'>
+                  <p class='description-body last-body'>$20,000</P>
+                </div>
+              </section>
+            </section>
+          </section>
+
+          <section class='side-links-container'>
+            <section class='social-links-container'>
+              <section class='social-box facebook'>
+                
+                <p class='social-title'><i class="fa fa-facebook social-icon" aria-hidden="true"></i>Post to Facebook</p>
+              </section>
+              <section class='social-box twitter'>
+                <p class='social-title'><i class="fa fa-twitter social-icon" aria-hidden="true"></i>Tweet this job</p>
+              </section>
+              <section class='social-box email'>
+                <p class='social-title'><i class="fa fa-paper-plane social-icon" aria-hidden="true"></i>Email</p>
+              </section>
+            </section>
+            <section class='link-to-job-container'>
+              <p class='input-title'><i class="fa fa-share input-icon" aria-hidden="true"></i>Share This Page</P>
+              <p class='input-text'>Copy this link to share this motorcycle with your friends. Just click the copy button to the right of the link and it will be saved to your clipboard.</p>
+              <input class='input-field' type='text' placeholder=" http://britishcustoms.com">
+              <button class='input-button'>Copy</button>
+              <hr class='input-hr'>
+            </section>
+            <section class='button-widget-container'>
+              <p class='input-title'><i class="fa fa-link input-icon" aria-hidden="true"></i>Link to this Builder</P>
+              <p class='input-text'>Copy this link to share this builder profile with your friends. Just click the copy button to the right of the link and it will be saved to your clipboard.</p>
+              <input class='input-field' type='text' placeholder=" http://britishcustomsdirtbike.com">
+              <button class='input-button'>Copy</button>
+              <hr class='input-hr'>
+            </section>
+            <section class='upload-resumes-container'>
+              <p class='input-title'><i class="fa fa-upload input-icon" aria-hidden="true"></i>Upload your build</P>
+              <p class='input-text'>If you want to share your build process or post your bike for sale, email us at the address below.</p>
+              <input class='last-input-field' type='text' placeholder=" info@britishcustoms.com">
+              <hr class='input-hr'>
+            </section>
+          </section>
+        </section>
+      <!-- main site section close -->
+      </section>
+
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
