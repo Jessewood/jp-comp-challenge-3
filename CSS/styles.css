@@ -892,7 +892,6 @@ input::placeholder {
 .side-links-container  {
   width: 30%;
   height: auto;
-
   margin-top: 30px;
 }
 
@@ -902,11 +901,6 @@ input::placeholder {
 
 .social-box i {
   color: #fff;
-}
-
-.social-box p {
-    align-items: center;
-    justify-content: center;
 }
 
 .social-box {
@@ -936,13 +930,26 @@ input::placeholder {
   background: #037dbc;
 }
 
-.social-icon {
+.facebook-icon, .twitter-icon, .email-icon {
   width: 25px;
   height: 25px;
   margin: 0 0 0 0;
   position: relative;
-  left: -25%;
 }
+
+.facebook-icon {
+  left: -23%;
+}
+
+.twitter-icon {
+  left: -27%;
+}
+
+.email-icon {
+  left: -35%;
+}
+
+
 
 .social-title {
   font-size: 14px;
