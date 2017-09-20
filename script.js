@@ -34,5 +34,5 @@ $(document).ready(function()  {
 })
 
 $('main').on('click', '.menu-slider-button', function() {
-  NavOpenClose();`
+  NavOpenClose();
 });
