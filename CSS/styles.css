@@ -464,10 +464,9 @@ input::placeholder {
 }
 
 .circ-3a  {
-  border-left: solid 12px #b36bb5;
-  border-top: solid 12px #b36bb5;
-  border-right: solid 12px #b36bb5;
-
+  border-left: solid 12px #a1d356;
+  border-top: solid 12px #a1d356;
+  border-right: solid 12px #a1d356;
 }
 
 .count  {
@@ -899,6 +898,15 @@ input::placeholder {
 
 .social-links-container  {
   width: 100%;
+}
+
+.social-box i {
+  color: #fff;
+}
+
+.social-box p {
+    align-items: center;
+    justify-content: center;
 }
 
 .social-box {
