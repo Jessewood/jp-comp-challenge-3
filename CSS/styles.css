@@ -109,7 +109,6 @@ main  {
   display: inline;
   margin-left: 15px;
   position: relative;
-  top: -3px;
 }
 
 a {
@@ -124,10 +123,6 @@ a {
 .nav-link:hover {
   color: #f1f1f1;
   background: #30394a;
-}
-
-.nav-icon {
-  margin-bottom: 3px;
 }
 
 .nav-icon:hover .nav-link{
@@ -197,7 +192,7 @@ a {
   color: #9190a0;
 }
 
-.admin-sec i:hover {
+.admin-sec:hover i {
   color: #fff;
 }
 
@@ -262,7 +257,6 @@ input::placeholder {
 }
 
 .admin-sec-1:hover  .add-member  {
-  transform: scale(1.1);
   color: #fff;
   cursor: pointer;
 }
@@ -365,6 +359,7 @@ input::placeholder {
 }
 
 .side-button {
+  color: #9190a0;
   width: 25px;
   height: 25px;
   border: none;
@@ -372,7 +367,7 @@ input::placeholder {
   background: none;
 }
 
-.side-button i:hover {
+.side-button:hover {
   color: #fff;
 }
 
