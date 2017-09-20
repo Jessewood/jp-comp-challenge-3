@@ -315,7 +315,6 @@ input::placeholder {
   width: 30%;
   height: 110px;
   background: #FFF;
-  display: inline-block;
   display: flex;
   align-items: center;
   float: right;
@@ -1431,7 +1430,7 @@ line-height: 55px;
   }
 
   .header-button-container  {
-    margin-top: 0px;
+    margin-left: 30px;
   }
 
   .search-field {
